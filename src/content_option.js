@@ -13,7 +13,7 @@ const introdata = {
         third: "I innovate with code & ideas",
     },
     description: "CS student & tech enthusiast passionate about embedded systems, electronics, and building smart, secure web solutions.",
-    your_img_url: "images/hero.png", // Replace with your real photo if available
+    your_img_url: `${process.env.PUBLIC_URL}/images/hero.png`,
 };
 
 const dataabout = {
