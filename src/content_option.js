@@ -13,7 +13,7 @@ const introdata = {
         third: "I innovate with code & ideas",
     },
     description: "CS student & tech enthusiast passionate about embedded systems, electronics, and building smart, secure web solutions.",
-    your_img_url: process.env.PUBLIC_URL + "/images/hero.png",
+    your_img_url: process.env.PUBLIC_URL + "/images/Hero.png",
 };
 
 const dataabout = {
@@ -40,11 +40,11 @@ const worktimeline = [
 ];
 
 const skills = [
-    { name: "Python", value: 85 },
-    { name: "JavaScript", value: 80 },
-    { name: "React.js", value: 70 },
+    { name: "Python", value: 50 },
+    { name: "JavaScript", value: 65},
+    { name: "React.js", value: 90 },
     { name: "C/C++", value: 75 },
-    { name: "MySQL", value: 80 },
+    { name: "MySQL", value: 90 },
     { name: "Linux & Networking", value: 65 },
 ];
 
