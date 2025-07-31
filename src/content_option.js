@@ -1,157 +1,100 @@
-const logotext = "JOHN";
+const logotext = "Vishnuzmoto";
+
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Vishnu Skandha",
+    description: "Vishnu Skandha — Computer Science student, aspiring Full Stack Developer & Data Analyst, passionate about cybersecurity and smart tech solutions.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Vishnu Skandha",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I explore Cybersecurity",
+        second: "I build with React",
+        third: "I innovate with code & ideas",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "CS student & tech enthusiast passionate about embedded systems, electronics, and building smart, secure web solutions.",
+    your_img_url: "images/hero.png", // Replace with your real photo if available
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about myself",
+    aboutme: "I'm a Computer Science student at SRM University with a passion for full stack development, cybersecurity, and Embedded Systems. I have hands-on experience working on web apps, Jupyter notebooks, and exploring areas like automation and cloud computing. I love learning by building and collaborating.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Analyst Trainee",
+        where: "Eagle HiTech, Chennai",
+        date: "Jan 2025",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Trainee Web Developer",
+        where: "TalentTakeaways Infotech Pvt Ltd, Chennai",
+        date: "Nov - Dec 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Cyber Security Intern (TCS iON)",
+        where: "Cyber Suraksha Program",
+        date: "Jul - Aug 2024",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    { name: "Python", value: 85 },
+    { name: "JavaScript", value: 80 },
+    { name: "React.js", value: 70 },
+    { name: "C/C++", value: 75 },
+    { name: "MySQL", value: 80 },
+    { name: "Linux & Networking", value: 65 },
+];
+
+const services = [
+    {
+        title: "Web Development",
+        description: "Building responsive, user-centric web apps using React, PHP, and modern frameworks.",
     },
     {
-        name: "Djano",
-        value: 85,
+        title: "Data Analysis",
+        description: "Exploring data using Jupyter Notebooks, Python libraries, and querying with SQL.",
     },
     {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        title: "Cybersecurity Practice",
+        description: "Experienced in VAPT, packet analysis, and vulnerability detection through TCS iON program.",
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const dataportfolio = [
+    {
+        img: "images/React.png",
+        description: "Clicker Game — A fun web app built with React.js",
+        link: "#", // Replace with real project URL
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        img: "images/Arduino-Motion-Detector.png",
+        description: "IoT Motion-Activated LED — Built with Arduino, PIR motion sensor, and LED automation. Detects motion and lights up intelligently, ideal for smart room setups.",
+        link: "#", // Replace with real project URL
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "images/Atlas.png",
+        description: "Smart Military Assistant — My India Project using AI + Neural Concept",
+        link: "#", // Replace with real project URL
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "vishnu.skandha@gmail.com",
+    YOUR_FONE: "98420 99110",
+    description: "Feel free to reach out for collaboration, internships, or tech discussions. I'm open to exciting opportunities in full stack development, cybersecurity, and data analysis.",
+    YOUR_SERVICE_ID: "vishnu.skandha@gmail.com",
+    YOUR_TEMPLATE_ID: "your_emailjs_template_id",
+    YOUR_USER_ID: "VishnuSkandha",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/vishnuskandha",
+    linkedin: "https://www.linkedin.com/in/vishnuskandha",
 };
+
 export {
     meta,
     dataabout,
