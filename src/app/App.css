@@ -40,3 +40,10 @@
         max-width: 1140px;
     }
 }
+/* Fix table visibility in dark mode */
+.table td,
+.table th {
+  color: var(--text-color-2) !important;
+  background-color: transparent !important;
+  border-color: var(--text-color-2) !important;
+}
